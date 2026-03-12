@@ -1,16 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Resume from "./components/Resume";
+import Uses from "./components/Uses";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-black text-white min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-yellow-400">
-        Portfolio Setup Working 🚀
-      </h1>
+    <div className="bg-[#0b1623] text-white min-h-screen">
+
+      <Navbar />
+
+      <Hero />
+
+      <Resume />
+
+      {/* <Uses /> */}
+
+      <Contact />
+
+      <Footer />
+
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
