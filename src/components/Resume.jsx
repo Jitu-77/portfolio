@@ -29,6 +29,8 @@ function Resume() {
   {[
     "Angular",
     "React",
+    "HTML",
+    "Css/Scss",
     "JavaScript",
     "TypeScript",
     "Node.js",
@@ -44,11 +46,14 @@ function Resume() {
     "Git",
     "Jira",
     "RPA",
+    "VS Code",
+    "Intellij",
+    "Figma",
     "AI Tools & Prompt Engineering"
   ].map((skill) => (
     <span
       key={skill}
-      className="bg-yellow-400 text-black px-3 py-1 rounded-md text-sm font-medium hover:scale-105 transition duration-200"
+      className="cursor-pointer bg-yellow-400 text-black px-3 py-1 rounded-md text-sm font-medium hover:scale-105 transition duration-200"
     >
       {skill}
     </span>

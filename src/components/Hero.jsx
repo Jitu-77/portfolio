@@ -12,23 +12,35 @@ function Hero() {
       </h1>
 
       <p className="mt-6 text-gray-400 text-lg leading-relaxed">
-        Full-Stack Engineer with 7+ years of experience building scalable
-        applications using Angular, React, Node.js, and Java Spring Boot, with
-        additional expertise in delivering cross-platform solutions for web,
-        desktop (exe), Android, and iOS using Ionic.
+        Full-Stack Developer with 7+ years of experience building scalable web
+        applications using <span className="text-white font-medium"> Angular, React, Node.js, and Java Spring Boot, along
+        with cross-platform solutions for web, desktop (.exe), Android, and iOS
+        using Ionic.</span>
       </p>
 
       <p className="mt-4 text-gray-400">
-        Currently working at Infosys as a Senior Associate Consultant, leading
-        frontend development for Telecom products and designing modular UI
-        systems.
+        Currently serving as a{" "}
+        <span className="text-white font-medium">
+          Senior Associate Consultant at Infosys
+        </span>
+        , focusing on <span className="text-white font-medium">Telecom product development</span>  and designing modular frontend
+        architectures for large-scale applications.
+      </p>
+
+      <p className="mt-4 text-gray-400">
+        I hold a{" "}
+        <span className="text-white font-medium">
+          B.Tech in Electrical and Electronics Engineering
+        </span>{" "}
+        from Sikkim Manipal Institute of Technology, which shaped my strong
+        analytical and engineering mindset.
       </p>
 
       <ZigZag />
 
       {/* Social Links */}
 
-     {/* Contact */}
+      {/* Contact */}
 
       <div className="mt-10 space-y-6">
         {/* Social Links */}
